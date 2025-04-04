@@ -1,6 +1,6 @@
 // src/pages/Dashboard.jsx
 import { useEffect, useState } from "react";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 import { fetchData } from "../services/api";
 
 const Dashboard = () => {
@@ -25,7 +25,14 @@ const Dashboard = () => {
             <XAxis dataKey="title" />
             <YAxis />
             <Tooltip />
-            <Bar dataKey="amount" fill="#4CAF50" />
+            <Bar dataKey="amount">
+              {data.map((entry, index) => (
+                <Cell 
+                  key={`cell-${index}`} 
+                  fill={entry.amount < 0 ? "#FF4C4C" : "#4CAF50"} 
+                />
+              ))}
+            </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
