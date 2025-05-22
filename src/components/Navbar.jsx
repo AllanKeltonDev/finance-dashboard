@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <nav className="bg-blue-600 text-white p-4 text-center text-lg font-semibold">
-      Finance Dashboard
+      IGREJA FONTE DA VIDA
     </nav>
   );
 };
