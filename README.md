@@ -1,12 +1,29 @@
-# React + Vite
+# 🏦 Painel Financeiro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Painel Financeiro é uma aplicação web que permite visualizar e gerenciar suas finanças de maneira simples e eficiente. Desenvolvido com React, Vite e Tailwind CSS, o projeto busca oferecer uma interface moderna, responsiva e interativa para controle financeiro pessoal ou empresarial.
 
-Currently, two official plugins are available:
+💡 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dashboard interativo com resumo financeiro (receitas, despesas e saldo).
 
-## Expanding the ESLint configuration
+Cadastro de transações: adicionar, editar e remover entradas e saídas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Filtragem por categoria para análise detalhada das finanças.
+
+Visualização gráfica de receitas e despesas por período.
+
+Responsivo: compatível com desktop, tablet e mobile.
+
+🛠 Tecnologias Utilizadas
+
+React – Biblioteca JavaScript para construção de interfaces.
+
+Vite – Ferramenta moderna de build para React, rápida e eficiente.
+
+Tailwind CSS – Framework de CSS utilitário para estilização rápida e responsiva.
+
+React Router – Navegação entre páginas do painel.
+
+Recharts (opcional) – Para gráficos interativos de finanças.
+
+LocalStorage / API – Armazenamento de dados de transações (dependendo da implementação).
