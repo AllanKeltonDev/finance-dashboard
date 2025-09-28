@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Transacoes = () => {
-  return (
-    <div>Transações</div>
-  )
-}
+  return <div>Transações </div>;
+};
 
 export default Transacoes;

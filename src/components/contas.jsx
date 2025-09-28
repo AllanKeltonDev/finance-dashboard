@@ -1,9 +1,7 @@
-import React from 'react'
-dd 
+import React from "react";
+dd;
 const Contas = () => {
-  return (
-    <div>Contas</div>
-  )
-}
+  return <div>Contas </div>;
+};
 
 export default Contas;
